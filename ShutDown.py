@@ -8,7 +8,7 @@ def clear():
     os.system('cls')
 clear()
 tries_path = 'PasswordForShutdown/tries.txt'
-if os.path.exists(tries_path):
+if os.path.exists(tries_path): 
     tries_file = open(tries_path, 'r')
     tries = tries_file.read()
     if tries == '0':
